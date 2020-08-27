@@ -3,6 +3,7 @@ import Header from '../common/header';
 import image from '../assets/img/map-image.png'
 import Timeline from '../common/Timeline';
 import Team from '../common/team';
+import Footer from '../common/footer';
 
 class About extends Component{
 
@@ -20,6 +21,7 @@ class About extends Component{
             
                   <Timeline/>
                   <Team/>
+                  <Footer/>
             </div>
         );
     }
